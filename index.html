@@ -136,42 +136,6 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>About</h2>
-          <p>Who we are</p>
-        </div>
-
-        <div class="row content" data-aos="fade-up">
-          <div class="col-lg-6">
-            <p>
-              The leading experts in the probabilistic spin logic.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> 15+ years of research at Purdue University </li>
-              <li><i class="ri-check-double-line"></i> 10+ years of R&D at world class semiconductor companies</li>
-              <li><i class="ri-check-double-line"></i> Successful launch and exit of software start-ups </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Our company was founded by individuals who were part of the same organization and worked on probabilistic 
-              computing, starting a decade ago. Later, their professional expertise diverged, spanning Spintronics computing 
-              in academia, R&D in leading Semiconductor companies, and successful start-up 
-              launch and exit. Early work was mostly theoretical, but it is now a full-blown experimental effort at mutiple universities. <br/> 
-              Our technical advisors are from Stanford University, Purdue University, UC Santa Barbara, UC Berkeley and the University of Pittssburgh 
-              with expertise in semiconductor and magnetic devices, circuit design and computational biology.   
-            </p>
-            <a href="#features" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
@@ -215,6 +179,14 @@
               <h4 class="d-none d-lg-block">The Roadmap</h4>
             </a>
           </li>
+
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="600">
+            <a class="nav-link" data-toggle="tab" href="#tab-7">
+              <i class="ri-questionnaire-line"></i>
+              <h4 class="d-none d-lg-block">Is there a need?</h4>
+            </a>
+          </li>
+
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -330,6 +302,41 @@
             <div class="col-lg-6 order-1 order-lg-2 text-center">
               <img src="assets/img/the roadmap/comparison table.PNG" alt="" class="img-fluid">
             </div>  
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="tab-pane" id="tab-7">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3> Is there a need?</h3>
+              <p>
+                Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. 
+                The underlying concept is to use randomness to solve problems that might be deterministic in principle. They can aslo be used to explain 
+                the impact of risk and uncertainty in prediction and forecasting models. Fast and cheap Monte Carlo sampling can have a dramatic impact on 
+                computations that require a vast number of repeated samples that renders them intractable. <br/>
+                Below are perspectives from various individuals and organizations.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"> Nvidia: </i> "(1) It is very easy to understand how the method works, which is often not the case with the algorithm for the corresponding exact solution (assuming one exists).
+                  (2) It is very easy to implement, with the main hurdle being the generation of random numbers: <a href="https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-37-efficient-random-number-generation-and-application">LINK</a>.
+                  (3) Monte Carlo methods are inherently parallelizable.<a href="https://developer.nvidia.com/gpugems/gpugems3/contributors">LINK</a>" </li>
+                <!-- Link to the location of these statments is below -->   
+                      <!-- https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-37-efficient-random-number-generation-and-application -->   
+                <!-- Link to the authors of these statement is below -->   
+                      <!-- https://developer.nvidia.com/gpugems/gpugems3/contributors-->
+                <li><i class="ri-check-double-line"> Tensorflow Probability: </i> "<a href="https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb">Bayesian inference</a> would be the de facto method if it weren't 
+                  for MCMC's computational difficulties. In fact, MCMC is what turns most users off practical Bayesian inference.<a href="https://blog.tensorflow.org/2018/12/an-introduction-to-probabilistic.html">LINK</a>" </li>
+                <!-- Link to the location of these statments is below --> 
+                      <!-- https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb-->  
+                <!-- Link to the authors of these statement is below -->
+                      <!-- https://blog.tensorflow.org/2018/12/an-introduction-to-probabilistic.html-->
+                <li><i class="ri-check-double-line"> UC Berkeley EECS and Statistics Departments</i> "There is a natural class of nonconvex problems for which the computational complexity of sampling algorithms scales 
+                                                      linearly with the model dimension while that of optimization algorithms scales exponentially"  </li>    
+                <!-- Link to the location of these statments is below --> 
+                      <!-- https://www.pnas.org/content/116/42/20881 -->   
+                <!-- Link to the authors of these statement is below -->
+                      <!-- https://www.pnas.org/content/116/42/20881 -->      
+              </ul>
             </div>
           </div>
         </div>
@@ -357,47 +364,47 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/nature.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 1</h4> -->
+              <h4>Paper 1</h4>
               <p>Papers</p>
               <a href="assets/img/publications/nature.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 1"><i class="bx bx-plus"></i></a>
               <a href="https://www.nature.com/articles/s41586-019-1557-9" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/ieee access.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 2</h4> -->
+              <h4>Paper 2</h4>
               <p>Papers</p>
               <a href="assets/img/publications/ieee access.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 2"><i class="bx bx-plus"></i></a>
               <a href="https://ieeexplore.ieee.org/abstract/document/9173656" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/publications/patent 2019 pbit.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!--<h4>Patents 1</h4> -->
+              <h4>Patent 1</h4>
               <p>Patents</p>
               <a href="assets/img/publications/patent 2019 pbit.PNG"  data-gall="portfolioGallery" class="venobox preview-link" title="Patent 1"><i class="bx bx-plus"></i></a>
               <a href="https://patents.google.com/patent/US20190130954A1/en" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/phys rev x.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!--<h4>Papers 3</h4> -->
+              <h4>Paper 3</h4>
               <p>Papers</p>
               <a href="assets/img/publications/phys rev x.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 3"><i class="bx bx-plus"></i></a>
               <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.031014" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/front neuro 2020 modeling.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 4</h4> -->
+              <h4>Paper 4</h4>
               <p>Papers</p>
               <a href="assets/img/publications/front neuro 2020 modeling.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 4"><i class="bx bx-plus"></i></a>
               <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.031014" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -407,7 +414,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/aip advances.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 5</h4> -->
+              <h4>Paper 5</h4>
               <p>Papers</p>
               <a href="assets/img/publications/aip advances.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 5"><i class="bx bx-plus"></i></a>
               <a href="https://aip.scitation.org/doi/10.1063/1.5021332" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -417,67 +424,67 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/publications/patent 2014 optimization.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!--<h4>Patent 2</h4> -->
+              <h4>Patent 2</h4>
               <p>Patents</p>
               <a href="assets/img/publications/patent 2014 optimization.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Patent 2"><i class="bx bx-plus"></i></a>
               <a href="https://patents.google.com/patent/US8698517B2/en" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/brian sci reports.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 6</h4> -->
+              <h4>Paper 6</h4>
               <p>Papers</p>
               <a href="assets/img/publications/brian sci reports.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 6"><i class="bx bx-plus"></i></a>
               <a href="https://www.nature.com/articles/srep44370" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/behtash sci reports.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 7</h4> -->
+              <h4>Paper 7</h4>
               <p>Papers</p>
               <a href="assets/img/publications/behtash sci reports.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 7"><i class="bx bx-plus"></i></a>
               <a href="https://www.nature.com/articles/srep29893" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/lbm design.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <!-- <h4>Papers 8</h4> -->
+              <h4>Paper 8</h4>
               <p>Papers</p>
               <a href="assets/img/publications/lbm design.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 8"><i class="bx bx-plus"></i></a>
               <a href="https://ieeexplore.ieee.org/document/8689078" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/nature nano.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Papers 9</h4>
+              <h4>Paper 9</h4>
               <p>Papers</p>
               <a href="assets/img/publications/nature nano.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 9"><i class="bx bx-plus"></i></a>
               <a href="https://www.nature.com/articles/nnano.2010.31" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/fpga emulation.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Papers 10</h4>
+              <h4>Paper 10</h4>
               <p>Papers</p>
               <a href="assets/img/publications/fpga emulation.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 10"><i class="bx bx-plus"></i></a>
               <a href="https://ieeexplore.ieee.org/abstract/document/9173656" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/publications/ieee edl.PNG" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Papers 11</h4>
+              <h4>Paper 11</h4>
               <p>Papers</p>
               <a href="assets/img/publications/ieee edl.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Paper 11"><i class="bx bx-plus"></i></a>
               <a href="https://ieeexplore.ieee.org/document/8089744" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -487,13 +494,49 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who we are</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              The leading experts in the probabilistic spin logic.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> 15+ years of research at Purdue University </li>
+              <li><i class="ri-check-double-line"></i> 10+ years of R&D at world class semiconductor companies</li>
+              <li><i class="ri-check-double-line"></i> Successful launch and exit of software start-ups </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Our company was founded by individuals who were part of the same organization and worked on probabilistic 
+              computing, starting a decade ago. Later, their professional expertise diverged, spanning Spintronics computing 
+              in academia, R&D in leading Semiconductor companies, and successful start-up 
+              launch and exit. Early work was mostly theoretical, but it is now a full-blown experimental effort at mutiple universities. <br/> 
+              Our technical advisors are from Stanford University, Purdue University, UC Santa Barbara, UC Berkeley and the University of Pittssburgh 
+              with expertise in semiconductor and magnetic devices, circuit design and computational biology.   
+            </p>
+            <!-- <a href="#features" class="btn-learn-more">Learn More</a> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
       <div class="copyright">
-        &copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>QCML Labs</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
