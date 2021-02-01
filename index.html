@@ -53,9 +53,9 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
           <li><a href="#features">Our Innovation</a></li>
           <li><a href="#portfolio">Publications</a></li>
+          <li><a href="#about">About Us</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -65,7 +65,7 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
+    <div id="heroCarousel" class="container carousel carousel-fade slide" data-ride="carousel">
 
       <!-- Slide 1 -->
       <div class="carousel-item active">
@@ -74,7 +74,7 @@
           <p class="animate__animated fanimate__adeInUp"> Decision-making,  econometrics, risk management, chip design, drug development, business analytics, and 
                                                           machine learning are not deterministic. <br/>
                                                           Why should our processors be all deterministic?</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
       <!-- Slide 2 -->
@@ -82,7 +82,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">The P-Computer</h2>
           <p class="animate__animated animate__fadeInUp"> Not just an architecture solution, differentiation starts at the bits</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
       <!-- Slide 3 -->
@@ -92,7 +92,7 @@
           <p class="animate__animated animate__fadeInUp"> From finding optimal solutions to logistical and operational problems , to finding the failure rate of
                                                           complex manufactured products, to finding the most probable conformational state of protein structures
                                                           for drug design, cheap Petascale sampling in seconds can drastically improve our well being. </p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
       <!-- Slide 3 -->
@@ -101,7 +101,7 @@
           <h2 class="animate__animated animate__fadeInDown">As Richard Feynman Described It</h2>
           <p class="animate__animated animate__fadeInUp">“… the other way to simulate a probabilistic nature, which I’ll call N ... is by a computer C which itself is probabilistic ..." <br/>
             <i>"Simulating Physics with Computers"<i\> Feynman (1982)</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
 
@@ -135,6 +135,75 @@
   </section><!-- End Hero -->
 
   <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Is there a need?</h2>
+          <p>Why P-Computing?</p>
+        </div>
+
+      <div data-aos="zoom-out">
+        <p>Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. The underlying concept is to use randomness to solve problems that might be deterministic in principle. They can aslo be used to explain the impact of risk and uncertainty in prediction and forecasting models. Fast and cheap Monte Carlo sampling can have a dramatic impact on computations that require a vast number of repeated samples that renders them intractable.
+          Below are perspectives from various individuals and organizations.</p>
+      </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="las la-microchip" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Nvidia</a></h4>
+              <p class="description"> (1) It is very easy to understand how the method works, which is often not the case with the algorithm for the corresponding exact solution (assuming one exists).
+                <br>(2) It is very easy to implement, with the main hurdle being the generation of random numbers: <a href="https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-37-efficient-random-number-generation-and-application">LINK</a>.
+                <br>(3) Monte Carlo methods are inherently parallelizable.<a href="https://developer.nvidia.com/gpugems/gpugems3/contributors">LINK</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="las la-laptop-code" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">Tensorflow Probability</a></h4>
+              <p class="description"> <a href="https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb">Bayesian inference</a> would be the de facto method if it weren't 
+                for MCMC's computational difficulties. In fact, MCMC is what turns most users off practical Bayesian inference.<a href="https://blog.tensorflow.org/2018/12/an-introduction-to-probabilistic.html">LINK</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="las la-university" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">UC Berkeley EECS and Statistics Departments</a></h4>
+              <p class="description"> "There is a natural class of nonconvex problems for which the computational complexity of sampling algorithms scales 
+                linearly with the model dimension while that of optimization algorithms scales exponentially" <a href="https://www.pnas.org/content/116/42/20881">LINK</a></p>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="las la-tachometer-alt" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="las la-globe-americas" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <div class="icon"><i class="las la-clock" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div> -->
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+    
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -180,12 +249,12 @@
             </a>
           </li>
 
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="600">
+          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="600">
             <a class="nav-link" data-toggle="tab" href="#tab-7">
               <i class="ri-questionnaire-line"></i>
               <h4 class="d-none d-lg-block">Is there a need?</h4>
             </a>
-          </li>
+          </li> -->
 
         </ul>
 
@@ -331,7 +400,7 @@
                 <!-- Link to the authors of these statement is below -->
                       <!-- https://blog.tensorflow.org/2018/12/an-introduction-to-probabilistic.html-->
                 <li><i class="ri-check-double-line"> UC Berkeley EECS and Statistics Departments</i> "There is a natural class of nonconvex problems for which the computational complexity of sampling algorithms scales 
-                                                      linearly with the model dimension while that of optimization algorithms scales exponentially"  </li>    
+                                                      linearly with the model dimension while that of optimization algorithms scales exponentially" <a href="https://www.pnas.org/content/116/42/20881">LINK</a> </li>    
                 <!-- Link to the location of these statments is below --> 
                       <!-- https://www.pnas.org/content/116/42/20881 -->   
                 <!-- Link to the authors of these statement is below -->
@@ -341,7 +410,7 @@
           </div>
         </div>
       </div>
-    </section><!-- End Features Section -->
+    </section><!-- End Features Section -->    
 
 
     <!-- ======= Portfolio Section ======= -->
